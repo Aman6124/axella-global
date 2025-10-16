@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Axella Global logo">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F5B9A"/>
+      <stop offset="100%" stop-color="#002B5B"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="10" y1="40" x2="54" y2="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A0AEC0"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+  </defs>
+  <!-- Stylized A -->
+  <path d="M32 8 L10 56 H20 L25 45 H39 L44 56 H54 L32 8 Z M28.8 37 L32 29.5 35.2 37 H28.8 Z" fill="url(#g1)"/>
+  <!-- Orbit ring -->
+  <ellipse cx="34" cy="34" rx="22" ry="8" transform="rotate(-18 34 34)" fill="none" stroke="url(#g2)" stroke-width="4"/>
+  <!-- Small globe hint -->
+  <circle cx="32" cy="30" r="6" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.9"/>
+  <path d="M26 30h12M32 24v12M28 26.5c2 1.5 6 1.5 8 0M28 33.5c2-1.5 6-1.5 8 0" stroke="#FFFFFF" stroke-width="1.2" opacity="0.9"/>
+</svg>
