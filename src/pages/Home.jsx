@@ -205,7 +205,7 @@ const Home = () => {
               <a href="/contact" className="btn-secondary inline-block bg-white text-primary-orange border-white hover:bg-gray-100">
                 Get Quote
               </a>
-              <a href="tel:+919876543210" className="btn-secondary inline-block border-white text-white hover:bg-white hover:text-primary-orange">
+              <a href="tel:+917249899183" className="btn-secondary inline-block border-white text-white hover:bg-white hover:text-primary-orange">
                 Call Now
               </a>
             </div>

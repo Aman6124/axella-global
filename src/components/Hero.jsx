@@ -22,7 +22,7 @@ const Hero = () => {
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               Axella Global
-              <span className="block text-primary-orange">Logisolutions</span>
+              <span className="block text-primary-orange">Logistics</span>
             </h1>
           </motion.div>
 

@@ -15,7 +15,7 @@ const Footer = () => {
               />
               <div>
                 <h3 className="text-xl font-bold">Axella Global</h3>
-                <p className="text-sm text-gray-300">Logisolutions</p>
+                <p className="text-sm text-gray-300">Logistics</p>
               </div>
             </div>
             <p className="text-gray-300 text-sm">
@@ -23,7 +23,7 @@ const Footer = () => {
             </p>
             <div className="text-sm text-gray-300">
               <p>📍 Taloja, Mumbai</p>
-              <p>📞 +91 98765 43210</p>
+              <p>📞 +91 7249899183</p>
               <p>✉️ info@axellaglobal.com</p>
             </div>
           </div>
@@ -82,7 +82,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-sm font-medium">Phone</p>
-                  <p className="text-gray-300 text-sm">+91 98765 43210</p>
+                  <p className="text-gray-300 text-sm">+91 7249899183</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
@@ -111,7 +111,7 @@ const Footer = () => {
         <div className="border-t border-gray-600 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-300 text-sm">
-              © 2024 Axella Global Logisolutions. All rights reserved.
+              © 2024 Axella Global Logistics. All rights reserved.
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <a href="#" className="text-gray-300 hover:text-primary-orange transition-colors">

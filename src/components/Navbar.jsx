@@ -26,7 +26,7 @@ const Navbar = () => {
             />
             <div>
               <h1 className="text-xl font-bold text-primary-navy">Axella Global</h1>
-              <p className="text-xs text-gray-600">Logisolutions</p>
+              <p className="text-xs text-gray-600">Logistics</p>
             </div>
           </Link>
 

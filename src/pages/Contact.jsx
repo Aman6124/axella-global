@@ -6,8 +6,8 @@ const Contact = () => {
     {
       icon: '📞',
       title: 'Phone',
-      details: ['+91 98765 43210', '+91 87654 32109'],
-      action: 'tel:+919876543210'
+      details: ['+91 7249899183'],
+      action: 'tel:+917249899183'
     },
     {
       icon: '✉️',
@@ -18,7 +18,7 @@ const Contact = () => {
     {
       icon: '📍',
       title: 'Address',
-      details: ['Axella Global Logisolutions', 'Taloja, Mumbai', 'Maharashtra, India'],
+      details: ['Axella Global Logistics', 'Taloja, Mumbai', 'Maharashtra, India'],
       action: 'https://maps.google.com/?q=Taloja,Mumbai'
     },
     {
@@ -33,19 +33,19 @@ const Contact = () => {
     {
       city: 'Mumbai (Head Office)',
       address: 'Taloja, Mumbai, Maharashtra',
-      phone: '+91 98765 43210',
+      phone: '+91 7249899183',
       email: 'mumbai@axellaglobal.com'
     },
     {
       city: 'Pune',
       address: 'Hinjewadi, Pune, Maharashtra',
-      phone: '+91 87654 32109',
+      phone: '+91 7249899183',
       email: 'pune@axellaglobal.com'
     },
     {
       city: 'Bangalore',
       address: 'Whitefield, Bangalore, Karnataka',
-      phone: '+91 76543 21098',
+      phone: '+91 7249899183',
       email: 'bangalore@axellaglobal.com'
     }
   ];
@@ -297,7 +297,7 @@ const Contact = () => {
               Contact us today for a free quote and consultation
             </p>
             <div className="space-y-4 md:space-y-0 md:space-x-4 md:flex md:justify-center">
-              <a href="tel:+919876543210" className="btn-secondary inline-block bg-white text-primary-orange border-white hover:bg-gray-100">
+              <a href="tel:+917249899183" className="btn-secondary inline-block bg-white text-primary-orange border-white hover:bg-gray-100">
                 Call Now
               </a>
               <a href="mailto:info@axellaglobal.com" className="btn-secondary inline-block border-white text-white hover:bg-white hover:text-primary-orange">

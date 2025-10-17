@@ -36,9 +36,9 @@ const About = () => {
       image: 'https://i.pravatar.cc/600?img=47'
     },
     {
-      name: 'Amit Patel',
-      position: 'Fleet Manager',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'
+      name: 'Nitin',
+      position: 'Head of Operations',
+      image: 'https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80'
     }
   ];
 
@@ -78,7 +78,7 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-gray-600">
                 <p>
-                  Founded in 2025, Axella Global Logisolutions emerged from a vision to revolutionize 
+                  Founded in 2025, Axella Global Logistics emerged from a vision to revolutionize 
                   the logistics industry in India. Based in Taloja, Mumbai, we recognized the growing 
                   need for reliable, temperature-controlled transportation solutions.
                 </p>
