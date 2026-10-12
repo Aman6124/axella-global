@@ -1,16 +1,55 @@
-# React + Vite
+# Axella Global
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React website for a logistics business, bringing services, fleet information, company details, and contact pages into one interface.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Five routes: Home, About, Services, Fleet, and Contact.
+- Shared navigation and footer.
+- Reusable hero, service card, and contact form components.
+- Framer Motion animations and Tailwind styling.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Run locally
 
-## Expanding the ESLint configuration
+Install Node.js compatible with Vite 7; the exact requirement is recorded under Vite's `engines` field in `package-lock.json`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/Aman6124/axella-global.git
+cd axella-global
+npm ci
+npm run dev
+```
+
+Open the local URL printed by Vite.
+
+## Available commands
+
+- `npm run dev` — start the development server.
+- `npm run build` — generate the production site in `dist/`.
+- `npm run preview` — preview the production build locally.
+- `npm run lint` — run ESLint.
+
+## Project structure
+
+```text
+src/
+  components/   Navigation, footer, hero, service cards, contact form
+  pages/        Home, About, Services, Fleet, Contact
+  App.jsx       Application routes and shared layout
+  index.css     Global styles
+public/         Static assets and brand logo
+```
+
+## Deployment notes
+
+Run `npm run build` and serve `dist/` with a static host. Because the app uses `BrowserRouter`, configure the host to serve `index.html` for application routes such as `/services`.
+
+The reusable `ContactForm.jsx` currently logs submissions and shows a confirmation locally. Connect and validate a delivery service before relying on it for customer enquiries.
+
+## Contributing
+
+Open an issue with the affected page, expected behavior, and reproduction steps. For changes, run the build and lint commands and include screenshots when updating the interface.
